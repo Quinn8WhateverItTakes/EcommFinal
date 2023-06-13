@@ -4,9 +4,6 @@ import Navbar from './Components/NavBar';
 import Footer from './Components/Footer';
 import Products from './Components/Products';
 import { FavoriteItemsProvider } from './Context/FavoriteItemsContext';
-import ProductListing from './Components/ProductListing';
-import ProductDetails from './Components/ProductDetails';
-import UserProfile from './Components/UserProfile';
 import HomePage from './Components/HomePage';
 import FavoritesPage from './Components/FavoritesPage';
 
