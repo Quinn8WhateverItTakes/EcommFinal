@@ -20,22 +20,22 @@
   width: 100%;
   min-height: 80vh;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   padding: 10px;
 }
 
-img{
+img {
   width: 250px;
   height: 250px;
   transition: all 0.3s ease;
 }
 
-img :hover{
+img:hover {
   transform: scale(1.1);
 }
 
-.card{
+.card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,13 +43,13 @@ img :hover{
   margin: 20px 0;
 }
 
-.card-description{
+.card-description {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 
-.footer{
+.footer {
   width: 100%;
   height: 10vh;
   background-color: black;
@@ -59,5 +59,16 @@ img :hover{
   justify-content: center;
   font-size: 19px;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
